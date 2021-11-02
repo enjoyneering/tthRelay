@@ -55,6 +55,9 @@ This is Time, Temperature and Humidity Relay.
     - recommended to add a 680ohm/220uF RC filter to prevent accidental switching on startup, see [ESP8266 GPIO Behaviour at Boot](https://rabbithole.wwwdotorg.org/2017/03/28/esp8266-gpio.html)
 
 ![alt text][gpio_rc_mode]
+
+**(1)** To work on the ESP-01, the flash memory must be replaced with 4MB/16Mbit.
+
 ![alt text][wifi_relay_module]
 ![alt text][[wifi_relay_schematic_mode]
 
@@ -75,7 +78,6 @@ Used frameworks, libraries:
 - [AHT1x/AHT2x](https://github.com/enjoyneering/AHTxx)
 - [HTU2xD/SHT2x/Si70xx](https://github.com/enjoyneering/HTU2xD_SHT2x_Si70xx)
 
-**(1)** To work on the ESP-01, the flash memory must be replaced with 4MB/16Mbit.
 
 [license-badge]: https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey.svg
 [license]:       https://creativecommons.org/licenses/by-nc-nd/4.0/
@@ -87,7 +89,7 @@ Used frameworks, libraries:
 [issues]:        https://github.com/enjoyneering/tthRelay/issues/
 
 [relay_config_page_image]:    https://github.com/enjoyneering/tthRelay/blob/main/images/tthRelay_relay_config_advance_heater.png
-[flash_download_tools_image]: https://github.com/enjoyneering/tthRelay/blob/main/images/flash_download_tool.png
+[flash_download_tools_image]: https://github.com/enjoyneering/tthRelay/blob/main/images/flash_download_tools.png
 [gpio_rc_mode]:               https://github.com/enjoyneering/tthRelay/blob/main/images/gpio_rc_mode_esp8266.png
 [wifi_relay_module]:          https://github.com/enjoyneering/tthRelay/blob/main/images/wifi_relay_module_ESP-01.jpg
 [wifi_relay_schematic_mode]:  https://github.com/enjoyneering/tthRelay/blob/main/images/wifi_relay_module_shematic_mode_ESP-01.png
