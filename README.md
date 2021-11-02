@@ -3,6 +3,8 @@
 # tthRelay
 This is Time, Temperature and Humidity Relay.
 
+![alt text][relay_config_page_image]
+
 - manual mode on/off
 - time mode from hh:mm to hh:mm
 - temperature mode (cooling/heating) with adjustable hysteresis and time priority from hh to hh
@@ -14,8 +16,6 @@ This is Time, Temperature and Humidity Relay.
 - you can have as many relays on the network as you want as long as they all have different hostnames
 
 **The software is provided "AS IS" without warranty of any kind. Don't leave it unattended.**
-
-![alt text][relay_config_page_image]
 
 - Download **Flash Download Tools** from https://www.espressif.com/en/support/download/other-tools
 - Download tthRelay *.bin files
@@ -55,9 +55,7 @@ This is Time, Temperature and Humidity Relay.
     - recommended to add a 680ohm/220uF RC filter to prevent accidental switching on startup, see [ESP8266 GPIO Behaviour at Boot](https://rabbithole.wwwdotorg.org/2017/03/28/esp8266-gpio.html)
 
 ![alt text][gpio_rc_mode]
-
 **(1)** To work on the ESP-01, the flash memory must be replaced with 4MB/16Mbit.
-
 ![alt text][wifi_relay_module]
 ![alt text][[wifi_relay_schematic_mode]
 
