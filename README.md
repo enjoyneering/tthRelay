@@ -5,6 +5,7 @@ This is Time, Temperature and Humidity Relay.
 
 ![alt text][relay_config_page_image]
 
+- support for AHT1x/AHT2x and HTU2xD/SHT2x/Si70xx sensors
 - manual mode on/off
 - time mode from hh:mm to hh:mm
 - temperature mode (cooling/heating) with adjustable hysteresis and time priority from hh to hh
