@@ -55,6 +55,7 @@ This is Time, Temperature and Humidity Relay.
     - recommended to add a 680ohm/220uF RC filter to prevent accidental switching on startup, see [ESP8266 GPIO Behaviour at Boot](https://rabbithole.wwwdotorg.org/2017/03/28/esp8266-gpio.html)
 
 ![alt text][gpio_rc_mode]
+
 **(1)** To work on the ESP-01, the flash memory must be replaced with 4MB/16Mbit.
 ![alt text][wifi_relay_module]
 ![alt text][wifi_relay_schematic_mode]
