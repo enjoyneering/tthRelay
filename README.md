@@ -57,7 +57,7 @@ This is Time, Temperature and Humidity Relay.
 ![alt text][gpio_rc_mode]
 **(1)** To work on the ESP-01, the flash memory must be replaced with 4MB/16Mbit.
 ![alt text][wifi_relay_module]
-![alt text][[wifi_relay_schematic_mode]
+![alt text][wifi_relay_schematic_mode]
 
 - Connect to **tthRelay** WiFi access point using password **12345678**
 - Type in browser http://192.168.4.1/
@@ -90,4 +90,4 @@ Used frameworks, libraries:
 [flash_download_tools_image]: https://github.com/enjoyneering/tthRelay/blob/main/images/flash_download_tools.png
 [gpio_rc_mode]:               https://github.com/enjoyneering/tthRelay/blob/main/images/gpio_rc_mode_esp8266.png
 [wifi_relay_module]:          https://github.com/enjoyneering/tthRelay/blob/main/images/wifi_relay_module_ESP-01.jpg
-[wifi_relay_schematic_mode]:  https://github.com/enjoyneering/tthRelay/blob/main/images/wifi_relay_module_shematic_mode_ESP-01.png
+[wifi_relay_schematic_mode]:  https://github.com/enjoyneering/tthRelay/blob/main/images/wifi_relay_module_schematic_mode_ESP-01.png
