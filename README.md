@@ -52,7 +52,8 @@ This is Time, Temperature and Humidity Relay.
       - GPIO0/D3
       - GPIO12/D6
       - GPIO13/D7
-      - GPIO14/D5<br/>
+      - GPIO14/D5
+
 **(1)** **To work on the ESP-01, the flash memory must be replaced with 4MB/32Mbit.**
 
 Recommended to add a 680ohm/220uF RC filter to prevent accidental switching on startup, see [ESP8266 GPIO Behaviour at Boot](https://rabbithole.wwwdotorg.org/2017/03/28/esp8266-gpio.html)
