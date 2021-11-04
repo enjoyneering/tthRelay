@@ -6,3 +6,7 @@ version descriptor
 
 1.0.0
   - initial release
+  
+1.1.0
+  - STA hostname is limited to 20 symbols, was 32
+  - STA hostname appears in the status bar next to the icon, to help you understand which device you are connected to
