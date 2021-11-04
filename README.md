@@ -14,7 +14,7 @@ This is Time, Temperature and Humidity Relay.
 - support for AHT1x/AHT2x and HTU2xD/SHT2x/Si70xx sensors
 - in case of sensor failure, the relay goes into the off state - only manual and switching by time will work
 - if two sensors with different addresses are connected and one of them fails during boot, the second sensor will be used automatically
-- station hostname used as relay ID, you can have as many relays on the network as you want as long as they all have different hostnames
+- _station hostname used as relay ID_, you can have as many relays on the network as you want as long as they all have different hostnames
 
 **The software is provided "AS IS" without warranty of any kind. Don't leave it unattended.**
 
@@ -56,7 +56,7 @@ This is Time, Temperature and Humidity Relay.
 
 **(1)** **To work on the ESP-01, the flash memory must be replaced with 4MB/32Mbit.**
 
-Recommended to add a 680ohm/220uF RC filter to prevent accidental switching on startup, see [ESP8266 GPIO Behaviour at Boot](https://rabbithole.wwwdotorg.org/2017/03/28/esp8266-gpio.html)
+Recommended to add a 680ohm/220uF RC filter to prevent accidental switching on startup, see [ESP8266 GPIO Behaviour at Boot](https://rabbithole.wwwdotorg.org/2017/03/28/esp8266-gpio.html).
 ![alt text][gpio_rc_mode]
 ![alt text][wifi_relay_module]
 ![alt text][wifi_relay_schematic_mode]
