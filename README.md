@@ -5,13 +5,13 @@ This is Time, Temperature and Humidity Relay.
 
 ![alt text][relay_config_page_image]
 
-- support for AHT1x/AHT2x and HTU2xD/SHT2x/Si70xx sensors
 - manual mode on/off
 - time mode from hh:mm to hh:mm
 - temperature mode (cooling/heating) with adjustable hysteresis and time priority from hh to hh
 - humidity mode (humidifier/dehumidifier) with adjustable hysteresis and time priority from hh to hh
 - support Normally Open/Normally Closed relay
 - support single shot to simulate momentary button press with adjustable time from 150 milliseconds to 500 milliseconds in 50 millisecond steps
+- support for AHT1x/AHT2x and HTU2xD/SHT2x/Si70xx sensors
 - in case of sensor failure, the relay goes into the off state - only manual and switching by time will work
 - if two sensors with different addresses are connected and one of them fails during boot, the second sensor will be used automatically
 - you can have as many relays on the network as you want as long as they all have different hostnames
@@ -55,7 +55,7 @@ This is Time, Temperature and Humidity Relay.
       - GPIO14/D5
     - recommended to add a 680ohm/220uF RC filter to prevent accidental switching on startup, see [ESP8266 GPIO Behaviour at Boot](https://rabbithole.wwwdotorg.org/2017/03/28/esp8266-gpio.html)
 
-**(1)** To work on the ESP-01, the flash memory must be replaced with 4MB/16Mbit.
+**(1)** _To work on the ESP-01, the flash memory must be replaced with 4MB/16Mbit._
 
 ![alt text][gpio_rc_mode]
 ![alt text][wifi_relay_module]
