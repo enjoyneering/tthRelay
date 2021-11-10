@@ -37,7 +37,7 @@ This is Time, Temperature and Humidity Relay.
       - GPIO2/D4/LED to SDA
       - Vcc
       - Gnd
-    - ESP-12, NodeMCU, Snoff Basic, WeMos:
+    - ESP-12, NodeMCU, Sonoff Basic, WeMos:
       - GPIO5/D1 to SCL
       - GPIO4/D2 to SDA
       - Vcc
@@ -46,13 +46,12 @@ This is Time, Temperature and Humidity Relay.
 - Connect relay as follows:
     - ESP-01 **(1)**:
       - GPIO0/D3
-    - Snoff Basic:
+    - Sonoff Basic:
       - GPIO12/D6
     - ESP-12, NodeMCU, WeMos:
       - GPIO0/D3
       - GPIO12/D6
       - GPIO13/D7
-      - GPIO14/D5
 
 **(1)** **To work on the ESP-01, the flash memory must be replaced with 4MB/32Mbit.**
 
