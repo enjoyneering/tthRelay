@@ -37,7 +37,7 @@ This is Time, Temperature and Humidity Relay.
       - GPIO2/D4/LED to SDA
       - Vcc
       - Gnd
-    - ESP-12, NodeMCU, Sonoff Basic, WeMos:
+    - ESP-12, NodeMCU, Sonoff Basic R1, WeMos:
       - GPIO5/D1 to SCL
       - GPIO4/D2 to SDA
       - Vcc
