@@ -46,7 +46,7 @@ This is Time, Temperature and Humidity Relay.
 - Connect relay as follows:
     - ESP-01 **(1)**:
       - GPIO0/D3
-    - Sonoff Basic:
+    - Sonoff Basic R1:
       - GPIO12/D6
     - ESP-12, NodeMCU, WeMos:
       - GPIO0/D3
