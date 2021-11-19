@@ -12,6 +12,7 @@ This is Time, Temperature and Humidity Relay.
 - support Normally Open/Normally Closed relay
 - support single shot to simulate momentary button press with adjustable time from 150 milliseconds to 500 milliseconds in 50 millisecond steps
 - support for AHT1x/AHT2x and HTU2xD/SHT2x/Si70xx sensors
+- temperature and humidity recorder to SPI flash with charts, up to 540 KB (enough to store an annual record in 30 minute increments)
 - in case of sensor failure, the relay goes into the off state - only manual and switching by time will work
 - if two sensors with different addresses are connected and one of them fails during boot, the second sensor will be used automatically
 - _station hostname used as relay ID_, you can have as many relays on the network as you want as long as they all have different hostnames
@@ -42,11 +43,16 @@ This is Time, Temperature and Humidity Relay.
       - GPIO4/D2 to SDA
       - Vcc
       - Gnd
+    - Sonoff TH10/TH16:
+      - GPIO14/D5 to SCL
+      - GPIO4/D2 to SDA
+      - Vcc
+      - Gnd
 
 - Connect relay as follows:
     - ESP-01 **(1)**:
       - GPIO0/D3
-    - Sonoff Basic R1:
+    - Sonoff Basic R1, Sonoff TH10/TH16:
       - GPIO12/D6
     - ESP-12, NodeMCU, WeMos:
       - GPIO0/D3
@@ -81,7 +87,7 @@ Used frameworks, libraries:
 
 [license-badge]: https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey.svg
 [license]:       https://creativecommons.org/licenses/by-nc-nd/4.0/
-[version]:       https://img.shields.io/badge/Version-1.1.0-green.svg
+[version]:       https://img.shields.io/badge/Version-2.0.0-green.svg
 [stars]:         https://img.shields.io/github/stars/enjoyneering/tthRelay.svg
 [stargazers]:    https://github.com/enjoyneering/tthRelay/stargazers
 [hit-count]:     https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fenjoyneering%2FtthRelay&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false
