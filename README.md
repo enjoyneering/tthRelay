@@ -12,7 +12,7 @@ This is Time, Temperature and Humidity Relay.
 - support Normally Open/Normally Closed relay
 - support single shot to simulate momentary button press with adjustable time from 150 milliseconds to 500 milliseconds in 50 millisecond steps
 - support for AHT1x/AHT2x and HTU2xD/SHT2x/Si70xx sensors
-- temperature and humidity recorder to SPI flash with charts, up to 540 KB (enough to store an annual record in 30 minute increments)
+- temperature and humidity recorder to SPI flash with charts, up to 400KB (enough to store an annual record in 30 minute increments)
 - in case of sensor failure, the relay goes into the off state - only manual and switching by time will work
 - if two sensors with different addresses are connected and one of them fails during boot, the second sensor will be used automatically
 - _station hostname used as relay ID_, you can have as many relays on the network as you want as long as they all have different hostnames
