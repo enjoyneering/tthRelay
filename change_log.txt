@@ -19,7 +19,7 @@ version descriptor
 2.1.0
   - updated time zone list & fixed UTC +12:00 behavior
   - chart height increased, temperature and humidity table removed from recorder data page
-  - empty username and password check added on server config html page
+  - empty username and password check added on server config page
   - loding jQuery from Google CDN removed due to poor performance in softAP mode
   - improved STA connection lost detection and softAP mode
   - server speed increased
