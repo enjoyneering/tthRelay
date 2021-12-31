@@ -15,7 +15,7 @@ version descriptor
   - added temperature and humidity recorder to SPI flash with charts, up to 400KB (enough to store an annual record in 30 minute increments)
   - added support for Sonoff TH10/TH16, see readme.md file
   - HTML files clean up
-  
+
 2.1.0
   - updated time zone list & fixed UTC +12:00 behavior
   - chart height increased, temperature and humidity table removed from recorder data page
@@ -23,3 +23,8 @@ version descriptor
   - loading jQuery from Google CDN removed due to poor performance in softAP mode
   - improved STA connection lost detection and softAP mode
   - server speed increased
+
+2.1.1
+  - better OTA & mDNS behavior during reboot
+  - wifi signal quality added to ESP8266 info page, 0%..100%
+  - software update page has been redesigned to better understand step-by-step process
