@@ -1,30 +1,37 @@
 version descriptor
-  - x.y.z
-    - x = major update, many new features
-    - y = small update, a couple of new features & improvements
-    - z = bug fixes & improvements to existing code
+ - x.y.z
+   - x = major update, many new features
+   - y = small update, a couple of new features & improvements
+   - z = bug fixes & improvements to existing code
 
 1.0.0
-  - initial release
+ - initial release
 
 1.1.0
-  - STA hostname is limited to 20 symbols, was 32
-  - STA hostname appears in the status bar next to the icon, to help you understand which device you are connected to
+ - STA hostname is limited to 20 symbols, was 32
+ - STA hostname appears in the status bar next to the icon, to help you understand which device you are connected to
 
 2.0.0
-  - added temperature and humidity recorder to SPI flash with charts, up to 400KB (enough to store an annual record in 30 minute increments)
-  - added support for Sonoff TH10/TH16, see readme.md file
-  - HTML files clean up
+ - added temperature and humidity recorder to SPI flash with charts, up to 400KB (enough to store an annual record in 30 minute increments)
+ - added support for Sonoff TH10/TH16, see readme.md file
+ - HTML files clean up
 
 2.1.0
-  - updated time zone list & fixed UTC +12:00 behavior
-  - chart height increased, temperature and humidity table removed from recorder data page
-  - empty username and password check added on server config page
-  - loading jQuery from Google CDN removed due to poor performance in softAP mode
-  - improved STA connection lost detection and softAP mode
-  - server speed increased
+ - updated time zone list & fixed UTC +12:00 behavior
+ - chart height increased, temperature and humidity table removed from recorder data page
+ - empty username and password check added on server config page
+ - loading jQuery from Google CDN removed due to poor performance in softAP mode
+ - improved STA connection lost detection and softAP mode
+ - server speed increased
 
 2.1.1
-  - better OTA & mDNS behavior during reboot
-  - wifi signal quality added to ESP8266 info page, 0%..100%
-  - software update page has been redesigned to better understand step-by-step process
+ - better OTA & mDNS behavior during reboot
+ - wifi signal quality added to ESP8266 info page, 0%..100%
+ - software update page has been redesigned to better understand step-by-step process
+
+3.0.0
+ - no longer need to press save button to change relay state in manual mode
+ - from..to behavior changed for all modes, any combinations are possible
+ - single shot drop down menu changed for better understanding relay behavior
+ - Arduino ESP8266 updated to latest development Core, lwIP: v2.1.3 + dhcp fixes & GCC 10.3 Bugfix 1
+ - ArduinoJson updated to v6.19.1
