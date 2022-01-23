@@ -87,7 +87,7 @@ Used frameworks, libraries:
 
 [license-badge]: https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey.svg
 [license]:       https://creativecommons.org/licenses/by-nc-nd/4.0/
-[version]:       https://img.shields.io/badge/Version-3.0.1-green.svg
+[version]:       https://img.shields.io/badge/Version-3.3.0-green.svg
 [stars]:         https://img.shields.io/github/stars/enjoyneering/tthRelay.svg
 [stargazers]:    https://github.com/enjoyneering/tthRelay/stargazers
 [hit-count]:     https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fenjoyneering%2FtthRelay&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false
