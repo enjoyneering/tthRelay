@@ -70,7 +70,7 @@ Recommended to add a 680ohm/220uF RC filter to prevent accidental switching on s
 - Connect to **tthRelay** WiFi access point using password **12345678**
 - Type in browser http://192.168.4.1/
 - Put **User Name**: _admin_ and **Password**: _12345678_
-- For security purposes, please change login/password for the access point **Settings -> Access Point Config** and **Settings -> Server Config** page then click **Save**
+- For security purposes, please change login/password for the access point **Settings -> Access Point Config** and **Settings -> Server Config** page then click **Save** (server password is also used as the Arduino IDE OTA password)
 - Set WiFi Network name and password in **Settings -> Station Config** page than click **Save** and **Reboot**
 - The tthRelay will connect to the WiFi network and **tthRelay** access point will disappear
 - Type in browser http://tthRelay.local/ (use IP address instead of mDNS on Android and Win7 devices, address can be found in the UART logs at speed 115200bps)
