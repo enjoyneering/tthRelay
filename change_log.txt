@@ -33,13 +33,21 @@ version descriptor
  - no longer need to press save button to change relay state in manual mode
  - from..to behavior changed for all modes, any combinations are possible
  - single shot drop down menu changed for better understanding relay behavior
- - Arduino ESP8266 updated to latest development Core, lwIP: v2.1.3 + dhcp fixes & GCC 10.3 Bugfix 1
+ - Arduino ESP8266 updated to latest development core, lwIP: v2.1.3 + dhcp fixes & GCC 10.3 Bugfix 1
  - ArduinoJson updated to v6.19.1
- 
- 3.0.1
+
+3.0.1
  - fixed bug in from..to behavior
 
 3.1.0
  - second attempt to fixed bug in from..to behavior
  - added password (same as server password) for OTA via Arduino IDE, no password required for OTA via HTML page
- - Arduino ESP8266 updated to latest development Core, fix Stream.read()
+ - Arduino ESP8266 updated to latest development core, fix Stream.read()
+
+4.0.0
+ - added relay control from anywhere in the world via Telegram messenger
+ - modal window added to upload HTML page
+ - ArduinoJson updated to v6.19.4
+ - sensor & relay boundary check added
+ - LittleFS version added to chip_info.html page
+ - Arduino ESP8266 updated to latest development core, LittleFS: v2.5 & more ...
