@@ -95,7 +95,7 @@ Used frameworks, libraries:
 [github-issues]: https://img.shields.io/github/issues/enjoyneering/tthRelay.svg
 [issues]:        https://github.com/enjoyneering/tthRelay/issues/
 
-[relay_config_page_image]:    https://github.com/enjoyneering/tthRelay/blob/main/images/tthRelay_relay_config_advance_heater.png
+[relay_config_page_image]:    https://github.com/enjoyneering/tthRelay/blob/main/images/tthRelay_relay_config_advance_humidity.png
 [flash_download_tools_image]: https://github.com/enjoyneering/tthRelay/blob/main/images/flash_download_tools.png
 [gpio_rc_mode]:               https://github.com/enjoyneering/tthRelay/blob/main/images/gpio_rc_mode_esp8266.png
 [wifi_relay_module]:          https://github.com/enjoyneering/tthRelay/blob/main/images/wifi_relay_module_ESP-01.jpg
