@@ -13,7 +13,7 @@ This is Time, Temperature and Humidity Relay.
 - support single shot to simulate momentary button press with adjustable time from 150 milliseconds to 500 milliseconds in 50 millisecond steps
 - support for AHT1x/AHT2x and HTU2xD/SHT2x/Si70xx sensors
 - temperature and humidity recorder to SPI flash with [charts](https://github.com/enjoyneering/tthRelay/blob/main/images/tthRelay_relay_recorder_data.png), up to 400KB (enough to store an annual record in 30 minute increments)
-- control relay via [Telegram messenger](https://github.com/enjoyneering/tthRelay/blob/main/images/telegram_bot.jpg) with default update rate of 10 seconds (can be configured via html page)
+- control relay via [Telegram messenger](https://github.com/enjoyneering/tthRelay/blob/main/images/telegram_bot.jpg) with default update rate of 10 seconds (can be configured via html page), up to 20 relay bots to one group chat
 - in case of sensor failure, the relay goes into the off state - only manual and switching by time will work
 - if two sensors with different addresses are connected and one of them fails during boot, the second sensor will be used automatically
 - _station hostname used as relay ID_, you can have as many relays on the network as you want as long as they all have different hostnames
