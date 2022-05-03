@@ -51,3 +51,8 @@ version descriptor
  - sensor & relay boundary check added
  - LittleFS version added to chip_info.html page
  - Arduino ESP8266 updated to latest development core, LittleFS: v2.5 & more ...
+
+4.0.1
+- fixed fw update via HTML page
+- stack size slightly reduced
+- some boundary checks added
