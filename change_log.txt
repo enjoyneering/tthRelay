@@ -56,3 +56,11 @@ version descriptor
 - fixed fw update via HTML page
 - stack size slightly reduced
 - some boundary checks added
+
+4.0.2
+- sensor_info.html updated
+- telegram_config.html updated
+- stack size slightly reduced
+- fixed stack memory leak
+- code size reduced
+- improved Telegram client behavior
