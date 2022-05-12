@@ -64,3 +64,8 @@ version descriptor
 - fixed stack memory leak
 - code size reduced
 - improved Telegram client behavior
+
+4.0.3
+- stack size slightly reduced
+- improved Telegram client behavior
+- added easter eggs to Telegram for geeks, command "/info"
