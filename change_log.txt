@@ -71,6 +71,6 @@ version descriptor
 - added easter eggs to Telegram for geeks, command "/info"
 
 4.0.4
-- more info edded to Telegram command "/status"
-- more info edded to Telegram command "/info"
+- more info added to Telegram command "/status"
+- more info added to Telegram command "/info"
 - 4KB user (cont) stack moved to heap & system (sys) stack increased from 4KB to 8KB
