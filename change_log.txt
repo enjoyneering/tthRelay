@@ -72,9 +72,9 @@ version descriptor
 
 4.0.4
 - more info added to Telegram command "/status"
+- more info added to Telegram command "/info"
+- 4KB user (cont) stack moved to heap & system (sys) stack increased from 4KB to 8KB
 
 4.0.5
 - Arduino ESP8266 updated to latest development core 3.0.2-118-gdc6b15e3
 - fixed bug when Telegram bot stopped working after losing WiFi connection
-- more info added to Telegram command "/info"
-- 4KB user (cont) stack moved to heap & system (sys) stack increased from 4KB to 8KB
