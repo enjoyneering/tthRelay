@@ -78,3 +78,6 @@ version descriptor
 4.0.5
 - Arduino ESP8266 updated to latest development core 3.0.2-118-gdc6b15e3
 - fixed bug when Telegram bot stopped working after losing WiFi connection
+
+4.0.6
+- Telegram client improvements and increased overall system stability
