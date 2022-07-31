@@ -81,3 +81,6 @@ version descriptor
 
 4.0.6
 - Telegram client improvements and increased overall system stability
+
+4.0.7
+- Arduino ESP8266 updated to latest development version to fix core bug - tthRelay softAP won't start on first boot
