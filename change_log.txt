@@ -84,3 +84,9 @@ version descriptor
 
 4.0.7
 - Arduino ESP8266 updated to latest development version to fix core bug - tthRelay softAP won't start on first boot
+
+4.1.0
+- redesigned recoder data HTML page, Chart.js replaced with lighter and faster dygraph.js
+- Telegram client speed and stability increased
+- some boundary checks added
+- other small improvements
