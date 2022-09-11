@@ -90,3 +90,4 @@ version descriptor
 - Telegram client speed and stability increased
 - some boundary checks added
 - other small improvements
+- Arduino core updated to 3.0.2-150-g73cd4ace
